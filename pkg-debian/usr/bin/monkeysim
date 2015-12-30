@@ -1,0 +1,3 @@
+#!/bin/sh
+
+wine "/usr/share/connectiq-sdk/bin/simulator.exe"
