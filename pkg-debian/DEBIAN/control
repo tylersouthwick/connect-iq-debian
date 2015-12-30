@@ -1,4 +1,4 @@
-Package: connect-iq
+Package: connect-iq-sdk
 Version: 1.2.1
 Architecture: all
 Essential: no
