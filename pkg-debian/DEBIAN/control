@@ -1,0 +1,10 @@
+Package: connect-iq
+Version: 1.2.1
+Architecture: all
+Essential: no
+Section: web
+Priority: optional
+Depends: wine, openjdk-8-jdk
+Maintainer: Tyler Southwick
+Installed-Size: 96
+Description: connect-iq agent
