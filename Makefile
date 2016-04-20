@@ -15,6 +15,10 @@ target : connectiq-sdk-win-${VERSION}.zip pkg-debian/DEBIAN/control
 	chmod +x target/usr/share/connectiq-sdk/bin/monkeyc
 	dos2unix target/usr/share/connectiq-sdk/bin/monkeydo
 	chmod +x target/usr/share/connectiq-sdk/bin/monkeydo
+	dos2unix target/usr/share/connectiq-sdk/bin/connectiq
+	chmod +x target/usr/share/connectiq-sdk/bin/connectiq
+	dos2unix target/usr/share/connectiq-sdk/bin/connectiqpkg
+	chmod +x target/usr/share/connectiq-sdk/bin/connectiqpkg
 
 connect-iq-sdk-${VERSION}.deb : target
 	dpkg -b target/ connect-iq-sdk-${VERSION}.deb

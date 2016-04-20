@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wine "/usr/share/connectiq-sdk/bin/simulator.exe"
+wine "/usr/share/connectiq-sdk/bin/simulator.exe" $@
